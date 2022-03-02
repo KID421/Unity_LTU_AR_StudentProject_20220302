@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: 6ea37227a22386b4ea0b5a93e09af372
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - GenSenMaruGothic JP TTF
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 27015c44999350643ba5507eceec1dd7, type: 3}
+  - {fileID: 12800000, guid: 1ec54caade0076a49aa66970d7f11030, type: 3}
+  - {fileID: 12800000, guid: 6a38d1abeca029b4784550606189b4a3, type: 3}
+  - {fileID: 12800000, guid: 94008fce8f72faf448fcc94fc0be2839, type: 3}
+  - {fileID: 12800000, guid: 72ca560f40fd27a429c641155757e1a1, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
