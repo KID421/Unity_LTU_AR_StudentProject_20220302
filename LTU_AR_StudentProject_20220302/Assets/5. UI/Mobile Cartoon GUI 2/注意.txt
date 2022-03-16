@@ -1,3 +1,0 @@
-Theme 05/Button_BG
-
-此圖在遊戲輸出WebGL版本時會出錯，請刪除此圖。

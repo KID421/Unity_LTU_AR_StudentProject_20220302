@@ -1,0 +1,1689 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.30f1 (1fb1bf06830e) revision 2077119'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'zh' Physical Memory: 32625 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/KID/Projects/Unity/Unity_LTU_AR_StudentProject_20220302/LTU_AR_StudentProject_20220302
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+12865
+Successfully changed project path to: C:/KID/Projects/Unity/Unity_LTU_AR_StudentProject_20220302/LTU_AR_StudentProject_20220302
+C:/KID/Projects/Unity/Unity_LTU_AR_StudentProject_20220302/LTU_AR_StudentProject_20220302
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 86.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/KID/Projects/Unity/Unity_LTU_AR_StudentProject_20220302/LTU_AR_StudentProject_20220302/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 with Max-Q Design (ID=0x1f10)
+    Vendor:   
+    VRAM:     8031 MB
+    Driver:   30.0.14.7239
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56204
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003788 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 100.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.986 seconds
+Domain Reload Profiling:
+	ReloadAssembly (987ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (768ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (212ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (348ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (101ms)
+				BeforeProcessingInitializeOnLoad (29ms)
+				ProcessInitializeOnLoadAttributes (152ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.020427 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.489 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1490ms)
+		BeginReloadAssembly (203ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (1197ms)
+			LoadAssemblies (151ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (412ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (452ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (304ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1621 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.8 MB.
+System memory in use after: 91.8 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2299.
+Total: 3.969600 ms (FindLiveObjects: 0.341300 ms CreateObjectMapping: 0.109800 ms MarkObjects: 3.390800 ms  DeleteObjects: 0.125200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/20201216111517212.png
+  artifactKey: Guid(a89b6f5e01e70174baf7b65ba3c95bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20201216111517212.png using Guid(a89b6f5e01e70174baf7b65ba3c95bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff633dda292 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff633dabd62 (Unity) ResolveArtifactV2
+0x00007ff633dc4f00 (Unity) ImportToObjects
+0x00007ff633dc4348 (Unity) ImportAsset
+0x00007ff633d5d9b8 (Unity) AssetImportWorker::Import
+0x00007ff633d83a6c (Unity) <lambda_b123f039090cb0dbc945ab4402a71fca>::operator()
+0x00007ff633e0b772 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff633e0d8d0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff633e1104e (Unity) asio::io_service::run
+0x00007ff633daca7b (Unity) RunAssetImportWorkerClientV2
+0x00007ff633dacad0 (Unity) RunAssetImporterV2
+0x00007ff6338474a9 (Unity) Application::InitializeProject
+0x00007ff633ca7c72 (Unity) WinMain
+0x00007ff63533944e (Unity) __scrt_common_main_seh
+0x00007ffdc1c17034 (KERNEL32) BaseThreadInitThunk
+0x00007ffdc2b22651 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(a89b6f5e01e70174baf7b65ba3c95bfa) Importer(-1,00000000000000000000000000000000), Assets/20201216111517212.png from editor
+Resuming Guid(a89b6f5e01e70174baf7b65ba3c95bfa) Importer(-1,00000000000000000000000000000000) -> fb0b6c17bd62080987c01ce36c9ab9fa 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+Diagnostics callstack to track who triggered the sub-import:
+0x00007ff633dda292 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff633dabd62 (Unity) ResolveArtifactV2
+0x00007ff633da3e51 (Unity) ProduceArtifactV2
+0x00007ff633d395de (Unity) AssetDatabase::ProduceArtifact
+0x00007ff633d23538 (Unity) PreviewImporter::GenerateAssetData
+0x00007ff633dc52d2 (Unity) ImportToObjects
+0x00007ff633dc4348 (Unity) ImportAsset
+0x00007ff633d5d9b8 (Unity) AssetImportWorker::Import
+0x00007ff633d83a6c (Unity) <lambda_b123f039090cb0dbc945ab4402a71fca>::operator()
+0x00007ff633e0b772 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff633e0d8d0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff633e1104e (Unity) asio::io_service::run
+0x00007ff633daca7b (Unity) RunAssetImportWorkerClientV2
+0x00007ff633dacad0 (Unity) RunAssetImporterV2
+0x00007ff6338474a9 (Unity) Application::InitializeProject
+0x00007ff633ca7c72 (Unity) WinMain
+0x00007ff63533944e (Unity) __scrt_common_main_seh
+0x00007ffdc1c17034 (KERNEL32) BaseThreadInitThunk
+0x00007ffdc2b22651 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(a89b6f5e01e70174baf7b65ba3c95bfa) Importer(-1,00000000000000000000000000000000), Assets/20201216111517212.png from editor
+Resuming Guid(a89b6f5e01e70174baf7b65ba3c95bfa) Importer(-1,00000000000000000000000000000000) -> fb0b6c17bd62080987c01ce36c9ab9fa 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+ -> (artifact id: 'e15534969cb4fcf72697cd5fc78cc6e9') in 0.652218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/KID/Rain.mat
+  artifactKey: Guid(658958894dc3eb94eb3d8a7a2bd6b647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KID/Rain.mat using Guid(658958894dc3eb94eb3d8a7a2bd6b647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a9981b337b33ec5ae476dcf882c8a5') in 0.177459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/KID/太陽效果 碎片.mat
+  artifactKey: Guid(4eee257d73673874396f0b2232fb56cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KID/太陽效果 碎片.mat using Guid(4eee257d73673874396f0b2232fb56cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff633dda292 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff633dabd62 (Unity) ResolveArtifactV2
+0x00007ff633d784ed (Unity) GUIDPersistentManagerV2::PathIDToPathNameInternal
+0x00007ff632ed7cb4 (Unity) PersistentManager::GetStreamNameSpaceInternal
+0x00007ff632ed7566 (Unity) PersistentManager::GetSerializedFileIfObjectAvailable
+0x00007ff632edc823 (Unity) PersistentManager::ReadAndActivateObjectThreaded
+0x00007ff632edd0d4 (Unity) PersistentManager::ReadObjectThreaded
+0x00007ff632edcdf3 (Unity) PersistentManager::ReadObject
+0x00007ff632c34310 (Unity) UnityPropertySheet::AssignDefinedPropertiesTo
+0x00007ff632c712e1 (Unity) Material::BuildProperties
+0x00007ff632c6f67f (Unity) Material::AcquireSharedMaterialData
+0x00007ff6328a582c (Unity) BaseRenderer::FlattenSharedMaterialData<0>
+0x00007ff6328a63f6 (Unity) IntermediateRenderer::AddAsRenderNode
+0x00007ff6328a649c (Unity) MeshIntermediateRenderer::AddAsRenderNode
+0x00007ff632910607 (Unity) PrepareRenderNodesOnMainThreadDeprecated
+0x00007ff63290e85a (Unity) ExtractSceneRenderNodeQueue
+0x00007ff63295e3e6 (Unity) CullResults::GetOrCreateSharedRendererScene
+0x00007ff632938877 (Unity) Camera::CustomRender
+0x00007ff63294dd82 (Unity) Camera::StandaloneCustomRender
+0x00007ff63294df08 (Unity) Camera::StandaloneRender
+0x00007ff632945176 (Unity) CameraScripting::Render
+0x00007ff63304c6b4 (Unity) Camera_CUSTOM_Render
+0x00000200a3101270 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.Camera:Render (UnityEngine.Camera)
+0x00000200a3100943 (Mono JIT Code) UnityEditor.PreviewRenderUtility:Render (bool,bool)
+0x00000200a30fe9c3 (Mono JIT Code) UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+0x00000200a30e8c73 (Mono JIT Code) UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+0x000002007f22e6ba (Mono JIT Code) UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+0x000002007f22e7c8 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_object_object_object_object (object,intptr,intptr,intptr)
+0x00007ffd2d6cf1e0 (mono-2.0-bdwgc) [mini-runtime.c:2849] mono_jit_runtime_invoke 
+0x00007ffd2d652ac2 (mono-2.0-bdwgc) [object.c:2921] do_runtime_invoke 
+0x00007ffd2d65bb1f (mono-2.0-bdwgc) [object.c:2968] mono_runtime_invoke 
+0x00007ff632e6fa44 (Unity) scripting_method_invoke
+0x00007ff632e6ad21 (Unity) ScriptingInvocation::Invoke
+0x00007ff633d24a56 (Unity) MonoCreateAssetPreview
+0x00007ff633d2673e (Unity) WriteAssetPreviewToFile
+0x00007ff633d26ea2 (Unity) WritePreviews
+0x00007ff633d2365e (Unity) PreviewImporter::GenerateAssetData
+0x00007ff633dc52d2 (Unity) ImportToObjects
+0x00007ff633dc4348 (Unity) ImportAsset
+0x00007ff633d5d9b8 (Unity) AssetImportWorker::Import
+0x00007ff633d83a6c (Unity) <lambda_b123f039090cb0dbc945ab4402a71fca>::operator()
+0x00007ff633e0b772 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff633e0d8d0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff633e1104e (Unity) asio::io_service::run
+0x00007ff633daca7b (Unity) RunAssetImportWorkerClientV2
+0x00007ff633dacad0 (Unity) RunAssetImporterV2
+0x00007ff6338474a9 (Unity) Application::InitializeProject
+0x00007ff633ca7c72 (Unity) WinMain
+0x00007ff63533944e (Unity) __scrt_common_main_seh
+0x00007ffdc1c17034 (KERNEL32) BaseThreadInitThunk
+0x00007ffdc2b22651 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(3deb8633c6b720d42aab1c61a340a3af) Importer(-1,00000000000000000000000000000000), Assets/JMO Assets/Cartoon FX/Textures/CFX3_T_GlowDot.png from editor
+Resuming Guid(3deb8633c6b720d42aab1c61a340a3af) Importer(-1,00000000000000000000000000000000) -> f23874e249380e9d357b4ee3a6eac6f4 
+Assertion failed on expression: 'state.state == kUpToDate'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/ImporterAssetResolver.cpp line 58]
+
+Assertion failed on expression: 'state.artifactID == result'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/ImporterAssetResolver.cpp line 59]
+
+ -> (artifact id: '183089392977af0115d5da8acfe24232') in 0.170882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/KID/天空.mat
+  artifactKey: Guid(15289bf1673daef46971d17cb2e3224f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KID/天空.mat using Guid(15289bf1673daef46971d17cb2e3224f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f6cd6503aab95efa44edba0c0540f3') in 0.027928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/KID/太陽效果 散發.mat
+  artifactKey: Guid(9db5212731208f14788631b512f8b31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KID/太陽效果 散發.mat using Guid(9db5212731208f14788631b512f8b31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff633dda292 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff633dabd62 (Unity) ResolveArtifactV2
+0x00007ff633d784ed (Unity) GUIDPersistentManagerV2::PathIDToPathNameInternal
+0x00007ff632ed7cb4 (Unity) PersistentManager::GetStreamNameSpaceInternal
+0x00007ff632ed7566 (Unity) PersistentManager::GetSerializedFileIfObjectAvailable
+0x00007ff632edc823 (Unity) PersistentManager::ReadAndActivateObjectThreaded
+0x00007ff632edd0d4 (Unity) PersistentManager::ReadObjectThreaded
+0x00007ff632edcdf3 (Unity) PersistentManager::ReadObject
+0x00007ff632c34310 (Unity) UnityPropertySheet::AssignDefinedPropertiesTo
+0x00007ff632c712e1 (Unity) Material::BuildProperties
+0x00007ff632c6f67f (Unity) Material::AcquireSharedMaterialData
+0x00007ff6328a582c (Unity) BaseRenderer::FlattenSharedMaterialData<0>
+0x00007ff6328a63f6 (Unity) IntermediateRenderer::AddAsRenderNode
+0x00007ff6328a649c (Unity) MeshIntermediateRenderer::AddAsRenderNode
+0x00007ff632910607 (Unity) PrepareRenderNodesOnMainThreadDeprecated
+0x00007ff63290e85a (Unity) ExtractSceneRenderNodeQueue
+0x00007ff63295e3e6 (Unity) CullResults::GetOrCreateSharedRendererScene
+0x00007ff632938877 (Unity) Camera::CustomRender
+0x00007ff63294dd82 (Unity) Camera::StandaloneCustomRender
+0x00007ff63294df08 (Unity) Camera::StandaloneRender
+0x00007ff632945176 (Unity) CameraScripting::Render
+0x00007ff63304c6b4 (Unity) Camera_CUSTOM_Render
+0x00000200a3101270 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.Camera:Render (UnityEngine.Camera)
+0x00000200a3100943 (Mono JIT Code) UnityEditor.PreviewRenderUtility:Render (bool,bool)
+0x00000200a30fe9c3 (Mono JIT Code) UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+0x00000200a30e8c73 (Mono JIT Code) UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+0x000002007f22e6ba (Mono JIT Code) UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+0x000002007f22e7c8 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_object_object_object_object (object,intptr,intptr,intptr)
+0x00007ffd2d6cf1e0 (mono-2.0-bdwgc) [mini-runtime.c:2849] mono_jit_runtime_invoke 
+0x00007ffd2d652ac2 (mono-2.0-bdwgc) [object.c:2921] do_runtime_invoke 
+0x00007ffd2d65bb1f (mono-2.0-bdwgc) [object.c:2968] mono_runtime_invoke 
+0x00007ff632e6fa44 (Unity) scripting_method_invoke
+0x00007ff632e6ad21 (Unity) ScriptingInvocation::Invoke
+0x00007ff633d24a56 (Unity) MonoCreateAssetPreview
+0x00007ff633d2673e (Unity) WriteAssetPreviewToFile
+0x00007ff633d26ea2 (Unity) WritePreviews
+0x00007ff633d2365e (Unity) PreviewImporter::GenerateAssetData
+0x00007ff633dc52d2 (Unity) ImportToObjects
+0x00007ff633dc4348 (Unity) ImportAsset
+0x00007ff633d5d9b8 (Unity) AssetImportWorker::Import
+0x00007ff633d83a6c (Unity) <lambda_b123f039090cb0dbc945ab4402a71fca>::operator()
+0x00007ff633e0b772 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff633e0d8d0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff633e1104e (Unity) asio::io_service::run
+0x00007ff633daca7b (Unity) RunAssetImportWorkerClientV2
+0x00007ff633dacad0 (Unity) RunAssetImporterV2
+0x00007ff6338474a9 (Unity) Application::InitializeProject
+0x00007ff633ca7c72 (Unity) WinMain
+0x00007ff63533944e (Unity) __scrt_common_main_seh
+0x00007ffdc1c17034 (KERNEL32) BaseThreadInitThunk
+0x00007ffdc2b22651 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(d4a2006d08ce68a41a5ca355a39d697e) Importer(-1,00000000000000000000000000000000), Assets/JMO Assets/WarFX/Mobile/Textures/Smoke/WFXM_T_SmokeLoopAlpha Average.tga from editor
+Resuming Guid(d4a2006d08ce68a41a5ca355a39d697e) Importer(-1,00000000000000000000000000000000) -> 227f035c90d750a4b202dc4150047451 
+Assertion failed on expression: 'state.state == kUpToDate'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/ImporterAssetResolver.cpp line 58]
+
+Assertion failed on expression: 'state.artifactID == result'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/ImporterAssetResolver.cpp line 59]
+
+ -> (artifact id: '66b715627f52733e25b276e8124879ce') in 0.042234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/KID/RainCube.mat
+  artifactKey: Guid(fef1a7e0cdfd9e14cbc331080d9053d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KID/RainCube.mat using Guid(fef1a7e0cdfd9e14cbc331080d9053d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '577067bcbe5931e888943d3bdc0292b0') in 0.130433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000590 seconds.
+  path: Assets/KID/太陽.mat
+  artifactKey: Guid(01ff9e87aa69dbf4a83457903eb9b9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KID/太陽.mat using Guid(01ff9e87aa69dbf4a83457903eb9b9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff633dda292 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff633dabd62 (Unity) ResolveArtifactV2
+0x00007ff633d784ed (Unity) GUIDPersistentManagerV2::PathIDToPathNameInternal
+0x00007ff632ed7cb4 (Unity) PersistentManager::GetStreamNameSpaceInternal
+0x00007ff632ed7566 (Unity) PersistentManager::GetSerializedFileIfObjectAvailable
+0x00007ff632edc823 (Unity) PersistentManager::ReadAndActivateObjectThreaded
+0x00007ff632edd0d4 (Unity) PersistentManager::ReadObjectThreaded
+0x00007ff632edcdf3 (Unity) PersistentManager::ReadObject
+0x00007ff632c34310 (Unity) UnityPropertySheet::AssignDefinedPropertiesTo
+0x00007ff632c712e1 (Unity) Material::BuildProperties
+0x00007ff632c6f67f (Unity) Material::AcquireSharedMaterialData
+0x00007ff6328a582c (Unity) BaseRenderer::FlattenSharedMaterialData<0>
+0x00007ff6328a63f6 (Unity) IntermediateRenderer::AddAsRenderNode
+0x00007ff6328a649c (Unity) MeshIntermediateRenderer::AddAsRenderNode
+0x00007ff632910607 (Unity) PrepareRenderNodesOnMainThreadDeprecated
+0x00007ff63290e85a (Unity) ExtractSceneRenderNodeQueue
+0x00007ff63295e3e6 (Unity) CullResults::GetOrCreateSharedRendererScene
+0x00007ff632938877 (Unity) Camera::CustomRender
+0x00007ff63294dd82 (Unity) Camera::StandaloneCustomRender
+0x00007ff63294df08 (Unity) Camera::StandaloneRender
+0x00007ff632945176 (Unity) CameraScripting::Render
+0x00007ff63304c6b4 (Unity) Camera_CUSTOM_Render
+0x00000200a3101270 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.Camera:Render (UnityEngine.Camera)
+0x00000200a3100943 (Mono JIT Code) UnityEditor.PreviewRenderUtility:Render (bool,bool)
+0x00000200a30fe9c3 (Mono JIT Code) UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+0x00000200a30e8c73 (Mono JIT Code) UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+0x000002007f22e6ba (Mono JIT Code) UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+0x000002007f22e7c8 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_object_object_object_object (object,intptr,intptr,intptr)
+0x00007ffd2d6cf1e0 (mono-2.0-bdwgc) [mini-runtime.c:2849] mono_jit_runtime_invoke 
+0x00007ffd2d652ac2 (mono-2.0-bdwgc) [object.c:2921] do_runtime_invoke 
+0x00007ffd2d65bb1f (mono-2.0-bdwgc) [object.c:2968] mono_runtime_invoke 
+0x00007ff632e6fa44 (Unity) scripting_method_invoke
+0x00007ff632e6ad21 (Unity) ScriptingInvocation::Invoke
+0x00007ff633d24a56 (Unity) MonoCreateAssetPreview
+0x00007ff633d2673e (Unity) WriteAssetPreviewToFile
+0x00007ff633d26ea2 (Unity) WritePreviews
+0x00007ff633d2365e (Unity) PreviewImporter::GenerateAssetData
+0x00007ff633dc52d2 (Unity) ImportToObjects
+0x00007ff633dc4348 (Unity) ImportAsset
+0x00007ff633d5d9b8 (Unity) AssetImportWorker::Import
+0x00007ff633d83a6c (Unity) <lambda_b123f039090cb0dbc945ab4402a71fca>::operator()
+0x00007ff633e0b772 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff633e0d8d0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff633e1104e (Unity) asio::io_service::run
+0x00007ff633daca7b (Unity) RunAssetImportWorkerClientV2
+0x00007ff633dacad0 (Unity) RunAssetImporterV2
+0x00007ff6338474a9 (Unity) Application::InitializeProject
+0x00007ff633ca7c72 (Unity) WinMain
+0x00007ff63533944e (Unity) __scrt_common_main_seh
+0x00007ffdc1c17034 (KERNEL32) BaseThreadInitThunk
+0x00007ffdc2b22651 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(c1e2180035cd91841b5d343f46041da9) Importer(-1,00000000000000000000000000000000), Assets/JMO Assets/WarFX/Desktop/Textures/Flames/WFX_T_NukeFlames.tga from editor
+Resuming Guid(c1e2180035cd91841b5d343f46041da9) Importer(-1,00000000000000000000000000000000) -> dba0f054d097364390139a96f3fa57f0 
+Assertion failed on expression: 'state.state == kUpToDate'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/ImporterAssetResolver.cpp line 58]
+
+Assertion failed on expression: 'state.artifactID == result'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/ImporterAssetResolver.cpp line 59]
+
+Diagnostics callstack to track who triggered the sub-import:
+0x00007ff633dda292 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff633dabd62 (Unity) ResolveArtifactV2
+0x00007ff633d784ed (Unity) GUIDPersistentManagerV2::PathIDToPathNameInternal
+0x00007ff632ed7cb4 (Unity) PersistentManager::GetStreamNameSpaceInternal
+0x00007ff632ed7566 (Unity) PersistentManager::GetSerializedFileIfObjectAvailable
+0x00007ff632edc823 (Unity) PersistentManager::ReadAndActivateObjectThreaded
+0x00007ff632edd0d4 (Unity) PersistentManager::ReadObjectThreaded
+0x00007ff632edcdf3 (Unity) PersistentManager::ReadObject
+0x00007ff632c34310 (Unity) UnityPropertySheet::AssignDefinedPropertiesTo
+0x00007ff632c712e1 (Unity) Material::BuildProperties
+0x00007ff632c6f67f (Unity) Material::AcquireSharedMaterialData
+0x00007ff6328a582c (Unity) BaseRenderer::FlattenSharedMaterialData<0>
+0x00007ff6328a63f6 (Unity) IntermediateRenderer::AddAsRenderNode
+0x00007ff6328a649c (Unity) MeshIntermediateRenderer::AddAsRenderNode
+0x00007ff632910607 (Unity) PrepareRenderNodesOnMainThreadDeprecated
+0x00007ff63290e85a (Unity) ExtractSceneRenderNodeQueue
+0x00007ff63295e3e6 (Unity) CullResults::GetOrCreateSharedRendererScene
+0x00007ff632938877 (Unity) Camera::CustomRender
+0x00007ff63294dd82 (Unity) Camera::StandaloneCustomRender
+0x00007ff63294df08 (Unity) Camera::StandaloneRender
+0x00007ff632945176 (Unity) CameraScripting::Render
+0x00007ff63304c6b4 (Unity) Camera_CUSTOM_Render
+0x00000200a3101270 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.Camera:Render (UnityEngine.Camera)
+0x00000200a3100943 (Mono JIT Code) UnityEditor.PreviewRenderUtility:Render (bool,bool)
+0x00000200a30fe9c3 (Mono JIT Code) UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+0x00000200a30e8c73 (Mono JIT Code) UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+0x000002007f22e6ba (Mono JIT Code) UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+0x000002007f22e7c8 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_object_object_object_object (object,intptr,intptr,intptr)
+0x00007ffd2d6cf1e0 (mono-2.0-bdwgc) [mini-runtime.c:2849] mono_jit_runtime_invoke 
+0x00007ffd2d652ac2 (mono-2.0-bdwgc) [object.c:2921] do_runtime_invoke 
+0x00007ffd2d65bb1f (mono-2.0-bdwgc) [object.c:2968] mono_runtime_invoke 
+0x00007ff632e6fa44 (Unity) scripting_method_invoke
+0x00007ff632e6ad21 (Unity) ScriptingInvocation::Invoke
+0x00007ff633d24a56 (Unity) MonoCreateAssetPreview
+0x00007ff633d2673e (Unity) WriteAssetPreviewToFile
+0x00007ff633d26ea2 (Unity) WritePreviews
+0x00007ff633d2365e (Unity) PreviewImporter::GenerateAssetData
+0x00007ff633dc52d2 (Unity) ImportToObjects
+0x00007ff633dc4348 (Unity) ImportAsset
+0x00007ff633d5d9b8 (Unity) AssetImportWorker::Import
+0x00007ff633d83a6c (Unity) <lambda_b123f039090cb0dbc945ab4402a71fca>::operator()
+0x00007ff633e0b772 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff633e0d8d0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff633e1104e (Unity) asio::io_service::run
+0x00007ff633daca7b (Unity) RunAssetImportWorkerClientV2
+0x00007ff633dacad0 (Unity) RunAssetImporterV2
+0x00007ff6338474a9 (Unity) Application::InitializeProject
+0x00007ff633ca7c72 (Unity) WinMain
+0x00007ff63533944e (Unity) __scrt_common_main_seh
+0x00007ffdc1c17034 (KERNEL32) BaseThreadInitThunk
+0x00007ffdc2b22651 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(1724eb924685fa7458a70dde1fd68bf2) Importer(-1,00000000000000000000000000000000), Assets/JMO Assets/WarFX/Desktop/Textures/Smoke/WFX_T_SmokeLoopAlpha Average.tga from editor
+Resuming Guid(1724eb924685fa7458a70dde1fd68bf2) Importer(-1,00000000000000000000000000000000) -> a467a925a51efcd5b2138a518f17edf3 
+Assertion failed on expression: 'state.state == kUpToDate'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/ImporterAssetResolver.cpp line 58]
+
+Assertion failed on expression: 'state.artifactID == result'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/ImporterAssetResolver.cpp line 59]
+
+ -> (artifact id: '6dc4d1dc17e0eb3705515362e6049df6') in 0.134420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/20200525095452237.png
+  artifactKey: Guid(b7cdbbf3a59a1ab4a94d402dece8947e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20200525095452237.png using Guid(b7cdbbf3a59a1ab4a94d402dece8947e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff633dda292 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff633dabd62 (Unity) ResolveArtifactV2
+0x00007ff633dc4f00 (Unity) ImportToObjects
+0x00007ff633dc4348 (Unity) ImportAsset
+0x00007ff633d5d9b8 (Unity) AssetImportWorker::Import
+0x00007ff633d83a6c (Unity) <lambda_b123f039090cb0dbc945ab4402a71fca>::operator()
+0x00007ff633e0b772 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff633e0d8d0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff633e1104e (Unity) asio::io_service::run
+0x00007ff633daca7b (Unity) RunAssetImportWorkerClientV2
+0x00007ff633dacad0 (Unity) RunAssetImporterV2
+0x00007ff6338474a9 (Unity) Application::InitializeProject
+0x00007ff633ca7c72 (Unity) WinMain
+0x00007ff63533944e (Unity) __scrt_common_main_seh
+0x00007ffdc1c17034 (KERNEL32) BaseThreadInitThunk
+0x00007ffdc2b22651 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(b7cdbbf3a59a1ab4a94d402dece8947e) Importer(-1,00000000000000000000000000000000), Assets/20200525095452237.png from editor
+Resuming Guid(b7cdbbf3a59a1ab4a94d402dece8947e) Importer(-1,00000000000000000000000000000000) -> ead5864422306f0b14bfe91460321155 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+Diagnostics callstack to track who triggered the sub-import:
+0x00007ff633dda292 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff633dabd62 (Unity) ResolveArtifactV2
+0x00007ff633da3e51 (Unity) ProduceArtifactV2
+0x00007ff633d395de (Unity) AssetDatabase::ProduceArtifact
+0x00007ff633d23538 (Unity) PreviewImporter::GenerateAssetData
+0x00007ff633dc52d2 (Unity) ImportToObjects
+0x00007ff633dc4348 (Unity) ImportAsset
+0x00007ff633d5d9b8 (Unity) AssetImportWorker::Import
+0x00007ff633d83a6c (Unity) <lambda_b123f039090cb0dbc945ab4402a71fca>::operator()
+0x00007ff633e0b772 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff633e0d8d0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff633e1104e (Unity) asio::io_service::run
+0x00007ff633daca7b (Unity) RunAssetImportWorkerClientV2
+0x00007ff633dacad0 (Unity) RunAssetImporterV2
+0x00007ff6338474a9 (Unity) Application::InitializeProject
+0x00007ff633ca7c72 (Unity) WinMain
+0x00007ff63533944e (Unity) __scrt_common_main_seh
+0x00007ffdc1c17034 (KERNEL32) BaseThreadInitThunk
+0x00007ffdc2b22651 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(b7cdbbf3a59a1ab4a94d402dece8947e) Importer(-1,00000000000000000000000000000000), Assets/20200525095452237.png from editor
+Resuming Guid(b7cdbbf3a59a1ab4a94d402dece8947e) Importer(-1,00000000000000000000000000000000) -> ead5864422306f0b14bfe91460321155 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+ -> (artifact id: 'd51681d1b5f601c9e142f96f8a40b157') in 0.027928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/1-21.jpg
+  artifactKey: Guid(856bced45f200df498359197f451f0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1-21.jpg using Guid(856bced45f200df498359197f451f0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff633dda292 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff633dabd62 (Unity) ResolveArtifactV2
+0x00007ff633dc4f00 (Unity) ImportToObjects
+0x00007ff633dc4348 (Unity) ImportAsset
+0x00007ff633d5d9b8 (Unity) AssetImportWorker::Import
+0x00007ff633d83a6c (Unity) <lambda_b123f039090cb0dbc945ab4402a71fca>::operator()
+0x00007ff633e0b772 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff633e0d8d0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff633e1104e (Unity) asio::io_service::run
+0x00007ff633daca7b (Unity) RunAssetImportWorkerClientV2
+0x00007ff633dacad0 (Unity) RunAssetImporterV2
+0x00007ff6338474a9 (Unity) Application::InitializeProject
+0x00007ff633ca7c72 (Unity) WinMain
+0x00007ff63533944e (Unity) __scrt_common_main_seh
+0x00007ffdc1c17034 (KERNEL32) BaseThreadInitThunk
+0x00007ffdc2b22651 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(856bced45f200df498359197f451f0eb) Importer(-1,00000000000000000000000000000000), Assets/1-21.jpg from editor
+Resuming Guid(856bced45f200df498359197f451f0eb) Importer(-1,00000000000000000000000000000000) -> 7bec7b5f435cdcbca7040cd3bd4af8c6 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+Diagnostics callstack to track who triggered the sub-import:
+0x00007ff633dda292 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff633dabd62 (Unity) ResolveArtifactV2
+0x00007ff633da3e51 (Unity) ProduceArtifactV2
+0x00007ff633d395de (Unity) AssetDatabase::ProduceArtifact
+0x00007ff633d23538 (Unity) PreviewImporter::GenerateAssetData
+0x00007ff633dc52d2 (Unity) ImportToObjects
+0x00007ff633dc4348 (Unity) ImportAsset
+0x00007ff633d5d9b8 (Unity) AssetImportWorker::Import
+0x00007ff633d83a6c (Unity) <lambda_b123f039090cb0dbc945ab4402a71fca>::operator()
+0x00007ff633e0b772 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff633e0d8d0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff633e1104e (Unity) asio::io_service::run
+0x00007ff633daca7b (Unity) RunAssetImportWorkerClientV2
+0x00007ff633dacad0 (Unity) RunAssetImporterV2
+0x00007ff6338474a9 (Unity) Application::InitializeProject
+0x00007ff633ca7c72 (Unity) WinMain
+0x00007ff63533944e (Unity) __scrt_common_main_seh
+0x00007ffdc1c17034 (KERNEL32) BaseThreadInitThunk
+0x00007ffdc2b22651 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(856bced45f200df498359197f451f0eb) Importer(-1,00000000000000000000000000000000), Assets/1-21.jpg from editor
+Resuming Guid(856bced45f200df498359197f451f0eb) Importer(-1,00000000000000000000000000000000) -> 7bec7b5f435cdcbca7040cd3bd4af8c6 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+ -> (artifact id: '77f06457d04dba741dd5629330cadc1a') in 0.016738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/KID/wesley-tingey-9-OCsKoyQlk-unsplash.jpg
+  artifactKey: Guid(8aa4804e819ae2545a3124faa311ccd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KID/wesley-tingey-9-OCsKoyQlk-unsplash.jpg using Guid(8aa4804e819ae2545a3124faa311ccd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff633dda292 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff633dabd62 (Unity) ResolveArtifactV2
+0x00007ff633dc4f00 (Unity) ImportToObjects
+0x00007ff633dc4348 (Unity) ImportAsset
+0x00007ff633d5d9b8 (Unity) AssetImportWorker::Import
+0x00007ff633d83a6c (Unity) <lambda_b123f039090cb0dbc945ab4402a71fca>::operator()
+0x00007ff633e0b772 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff633e0d8d0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff633e1104e (Unity) asio::io_service::run
+0x00007ff633daca7b (Unity) RunAssetImportWorkerClientV2
+0x00007ff633dacad0 (Unity) RunAssetImporterV2
+0x00007ff6338474a9 (Unity) Application::InitializeProject
+0x00007ff633ca7c72 (Unity) WinMain
+0x00007ff63533944e (Unity) __scrt_common_main_seh
+0x00007ffdc1c17034 (KERNEL32) BaseThreadInitThunk
+0x00007ffdc2b22651 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(8aa4804e819ae2545a3124faa311ccd9) Importer(-1,00000000000000000000000000000000), Assets/KID/wesley-tingey-9-OCsKoyQlk-unsplash.jpg from editor
+Resuming Guid(8aa4804e819ae2545a3124faa311ccd9) Importer(-1,00000000000000000000000000000000) -> a5099acd885afbbef15b8937839ec091 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+Diagnostics callstack to track who triggered the sub-import:
+0x00007ff633dda292 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff633dabd62 (Unity) ResolveArtifactV2
+0x00007ff633da3e51 (Unity) ProduceArtifactV2
+0x00007ff633d395de (Unity) AssetDatabase::ProduceArtifact
+0x00007ff633d23538 (Unity) PreviewImporter::GenerateAssetData
+0x00007ff633dc52d2 (Unity) ImportToObjects
+0x00007ff633dc4348 (Unity) ImportAsset
+0x00007ff633d5d9b8 (Unity) AssetImportWorker::Import
+0x00007ff633d83a6c (Unity) <lambda_b123f039090cb0dbc945ab4402a71fca>::operator()
+0x00007ff633e0b772 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff633e0d8d0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff633e1104e (Unity) asio::io_service::run
+0x00007ff633daca7b (Unity) RunAssetImportWorkerClientV2
+0x00007ff633dacad0 (Unity) RunAssetImporterV2
+0x00007ff6338474a9 (Unity) Application::InitializeProject
+0x00007ff633ca7c72 (Unity) WinMain
+0x00007ff63533944e (Unity) __scrt_common_main_seh
+0x00007ffdc1c17034 (KERNEL32) BaseThreadInitThunk
+0x00007ffdc2b22651 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(8aa4804e819ae2545a3124faa311ccd9) Importer(-1,00000000000000000000000000000000), Assets/KID/wesley-tingey-9-OCsKoyQlk-unsplash.jpg from editor
+Resuming Guid(8aa4804e819ae2545a3124faa311ccd9) Importer(-1,00000000000000000000000000000000) -> a5099acd885afbbef15b8937839ec091 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+ -> (artifact id: '0a2e0412878be1573db92247fa3773dc') in 0.021314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/RAIN.mat
+  artifactKey: Guid(5a30ce5b48c05fd44b4b5234435c50b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RAIN.mat using Guid(5a30ce5b48c05fd44b4b5234435c50b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e0e88a843954fcb6fa50d10065783f') in 0.024032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/KID/太陽效果 光芒.mat
+  artifactKey: Guid(00cad03ca24ad554a8ef4a95fef8ef6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KID/太陽效果 光芒.mat using Guid(00cad03ca24ad554a8ef4a95fef8ef6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff633dda292 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff633dabd62 (Unity) ResolveArtifactV2
+0x00007ff633d784ed (Unity) GUIDPersistentManagerV2::PathIDToPathNameInternal
+0x00007ff632ed7cb4 (Unity) PersistentManager::GetStreamNameSpaceInternal
+0x00007ff632ed7566 (Unity) PersistentManager::GetSerializedFileIfObjectAvailable
+0x00007ff632edc823 (Unity) PersistentManager::ReadAndActivateObjectThreaded
+0x00007ff632edd0d4 (Unity) PersistentManager::ReadObjectThreaded
+0x00007ff632edcdf3 (Unity) PersistentManager::ReadObject
+0x00007ff632c34310 (Unity) UnityPropertySheet::AssignDefinedPropertiesTo
+0x00007ff632c712e1 (Unity) Material::BuildProperties
+0x00007ff632c6f67f (Unity) Material::AcquireSharedMaterialData
+0x00007ff6328a582c (Unity) BaseRenderer::FlattenSharedMaterialData<0>
+0x00007ff6328a63f6 (Unity) IntermediateRenderer::AddAsRenderNode
+0x00007ff6328a649c (Unity) MeshIntermediateRenderer::AddAsRenderNode
+0x00007ff632910607 (Unity) PrepareRenderNodesOnMainThreadDeprecated
+0x00007ff63290e85a (Unity) ExtractSceneRenderNodeQueue
+0x00007ff63295e3e6 (Unity) CullResults::GetOrCreateSharedRendererScene
+0x00007ff632938877 (Unity) Camera::CustomRender
+0x00007ff63294dd82 (Unity) Camera::StandaloneCustomRender
+0x00007ff63294df08 (Unity) Camera::StandaloneRender
+0x00007ff632945176 (Unity) CameraScripting::Render
+0x00007ff63304c6b4 (Unity) Camera_CUSTOM_Render
+0x00000200a3101270 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.Camera:Render (UnityEngine.Camera)
+0x00000200a3100943 (Mono JIT Code) UnityEditor.PreviewRenderUtility:Render (bool,bool)
+0x00000200a30fe9c3 (Mono JIT Code) UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+0x00000200a30e8c73 (Mono JIT Code) UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+0x000002007f22e6ba (Mono JIT Code) UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+0x000002007f22e7c8 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_object_object_object_object (object,intptr,intptr,intptr)
+0x00007ffd2d6cf1e0 (mono-2.0-bdwgc) [mini-runtime.c:2849] mono_jit_runtime_invoke 
+0x00007ffd2d652ac2 (mono-2.0-bdwgc) [object.c:2921] do_runtime_invoke 
+0x00007ffd2d65bb1f (mono-2.0-bdwgc) [object.c:2968] mono_runtime_invoke 
+0x00007ff632e6fa44 (Unity) scripting_method_invoke
+0x00007ff632e6ad21 (Unity) ScriptingInvocation::Invoke
+0x00007ff633d24a56 (Unity) MonoCreateAssetPreview
+0x00007ff633d2673e (Unity) WriteAssetPreviewToFile
+0x00007ff633d26ea2 (Unity) WritePreviews
+0x00007ff633d2365e (Unity) PreviewImporter::GenerateAssetData
+0x00007ff633dc52d2 (Unity) ImportToObjects
+0x00007ff633dc4348 (Unity) ImportAsset
+0x00007ff633d5d9b8 (Unity) AssetImportWorker::Import
+0x00007ff633d83a6c (Unity) <lambda_b123f039090cb0dbc945ab4402a71fca>::operator()
+0x00007ff633e0b772 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff633e0d8d0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff633e1104e (Unity) asio::io_service::run
+0x00007ff633daca7b (Unity) RunAssetImportWorkerClientV2
+0x00007ff633dacad0 (Unity) RunAssetImporterV2
+0x00007ff6338474a9 (Unity) Application::InitializeProject
+0x00007ff633ca7c72 (Unity) WinMain
+0x00007ff63533944e (Unity) __scrt_common_main_seh
+0x00007ffdc1c17034 (KERNEL32) BaseThreadInitThunk
+0x00007ffdc2b22651 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(7bb9dadd2444bf3439822eed5645b2a0) Importer(-1,00000000000000000000000000000000), Assets/JMO Assets/Cartoon FX/Textures/CFX3_T_AuraRays.png from editor
+Resuming Guid(7bb9dadd2444bf3439822eed5645b2a0) Importer(-1,00000000000000000000000000000000) -> 89ceb37587acd3220a4728eddd1b28a7 
+Assertion failed on expression: 'state.state == kUpToDate'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/ImporterAssetResolver.cpp line 58]
+
+Assertion failed on expression: 'state.artifactID == result'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/ImporterAssetResolver.cpp line 59]
+
+ -> (artifact id: '199bb6687503c08600a33bdcf92b47ca') in 0.040937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000687 seconds.
+  path: Assets/20201216111517208.png
+  artifactKey: Guid(f63d90a1b1e43204c9499e5c6d75ed3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/20201216111517208.png using Guid(f63d90a1b1e43204c9499e5c6d75ed3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff633dda292 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff633dabd62 (Unity) ResolveArtifactV2
+0x00007ff633dc4f00 (Unity) ImportToObjects
+0x00007ff633dc4348 (Unity) ImportAsset
+0x00007ff633d5d9b8 (Unity) AssetImportWorker::Import
+0x00007ff633d83a6c (Unity) <lambda_b123f039090cb0dbc945ab4402a71fca>::operator()
+0x00007ff633e0b772 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff633e0d8d0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff633e1104e (Unity) asio::io_service::run
+0x00007ff633daca7b (Unity) RunAssetImportWorkerClientV2
+0x00007ff633dacad0 (Unity) RunAssetImporterV2
+0x00007ff6338474a9 (Unity) Application::InitializeProject
+0x00007ff633ca7c72 (Unity) WinMain
+0x00007ff63533944e (Unity) __scrt_common_main_seh
+0x00007ffdc1c17034 (KERNEL32) BaseThreadInitThunk
+0x00007ffdc2b22651 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(f63d90a1b1e43204c9499e5c6d75ed3b) Importer(-1,00000000000000000000000000000000), Assets/20201216111517208.png from editor
+Resuming Guid(f63d90a1b1e43204c9499e5c6d75ed3b) Importer(-1,00000000000000000000000000000000) -> e14d652ce8a4f1d043f345620c74fab5 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+Diagnostics callstack to track who triggered the sub-import:
+0x00007ff633dda292 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff633dabd62 (Unity) ResolveArtifactV2
+0x00007ff633da3e51 (Unity) ProduceArtifactV2
+0x00007ff633d395de (Unity) AssetDatabase::ProduceArtifact
+0x00007ff633d23538 (Unity) PreviewImporter::GenerateAssetData
+0x00007ff633dc52d2 (Unity) ImportToObjects
+0x00007ff633dc4348 (Unity) ImportAsset
+0x00007ff633d5d9b8 (Unity) AssetImportWorker::Import
+0x00007ff633d83a6c (Unity) <lambda_b123f039090cb0dbc945ab4402a71fca>::operator()
+0x00007ff633e0b772 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff633e0d8d0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff633e1104e (Unity) asio::io_service::run
+0x00007ff633daca7b (Unity) RunAssetImportWorkerClientV2
+0x00007ff633dacad0 (Unity) RunAssetImporterV2
+0x00007ff6338474a9 (Unity) Application::InitializeProject
+0x00007ff633ca7c72 (Unity) WinMain
+0x00007ff63533944e (Unity) __scrt_common_main_seh
+0x00007ffdc1c17034 (KERNEL32) BaseThreadInitThunk
+0x00007ffdc2b22651 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(f63d90a1b1e43204c9499e5c6d75ed3b) Importer(-1,00000000000000000000000000000000), Assets/20201216111517208.png from editor
+Resuming Guid(f63d90a1b1e43204c9499e5c6d75ed3b) Importer(-1,00000000000000000000000000000000) -> e14d652ce8a4f1d043f345620c74fab5 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+ -> (artifact id: '3e9ca437decdfd85c94e072b8e620aa7') in 0.018161 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016876 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.629 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1631ms)
+		BeginReloadAssembly (165ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1370ms)
+			LoadAssemblies (153ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (541ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (430ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (117ms)
+				ProcessInitializeOnLoadAttributes (285ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1589 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.5 MB.
+System memory in use after: 91.6 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2341.
+Total: 3.114800 ms (FindLiveObjects: 0.163300 ms CreateObjectMapping: 0.058100 ms MarkObjects: 2.824600 ms  DeleteObjects: 0.067900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010025 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.471 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1471ms)
+		BeginReloadAssembly (158ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1213ms)
+			LoadAssemblies (151ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (427ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (397ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (239ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1589 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.5 MB.
+System memory in use after: 91.6 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2343.
+Total: 8.442300 ms (FindLiveObjects: 0.220000 ms CreateObjectMapping: 0.096200 ms MarkObjects: 8.061900 ms  DeleteObjects: 0.062700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009926 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.611 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1612ms)
+		BeginReloadAssembly (186ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1299ms)
+			LoadAssemblies (181ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (461ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (415ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (109ms)
+				ProcessInitializeOnLoadAttributes (269ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1589 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.5 MB.
+System memory in use after: 91.6 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2345.
+Total: 2.905200 ms (FindLiveObjects: 0.267200 ms CreateObjectMapping: 0.084000 ms MarkObjects: 2.525900 ms  DeleteObjects: 0.027300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1283.342994 seconds.
+  path: Assets/JMO Assets/WarFX/Desktop/Materials/Smoke/WFX_M_SmokeScroll Add.mat
+  artifactKey: Guid(08860f5a2ea791b418ad49e30b240d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/WarFX/Desktop/Materials/Smoke/WFX_M_SmokeScroll Add.mat using Guid(08860f5a2ea791b418ad49e30b240d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a3a97ba0e25fefbbe38ebdb2aa0cb3e') in 0.138818 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008743 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.006 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1007ms)
+		BeginReloadAssembly (119ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (822ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (268ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (291ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (188ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1589 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.6 MB.
+System memory in use after: 91.7 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2348.
+Total: 2.642200 ms (FindLiveObjects: 0.139600 ms CreateObjectMapping: 0.052700 ms MarkObjects: 2.392200 ms  DeleteObjects: 0.057200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 36.295661 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia
+  artifactKey: Guid(9cc7219dd8ba923418d1b45d8600186b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia using Guid(9cc7219dd8ba923418d1b45d8600186b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aed12622750fd67aca72167c1384f49') in 0.012190 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013063 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.034 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1034ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (862ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (285ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (294ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (188ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1666 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.0 MB.
+System memory in use after: 96.1 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2428.
+Total: 3.103900 ms (FindLiveObjects: 0.140200 ms CreateObjectMapping: 0.060200 ms MarkObjects: 2.871400 ms  DeleteObjects: 0.031000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011105 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <b08758aefb3d4af6ba8af11ba5408661>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.076 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1076ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (902ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (299ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (313ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (199ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1666 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.9 MB.
+System memory in use after: 96.0 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2431.
+Total: 2.874800 ms (FindLiveObjects: 0.170500 ms CreateObjectMapping: 0.058100 ms MarkObjects: 2.618600 ms  DeleteObjects: 0.026800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011299 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 3.36 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <35d9c9f9151b4fc6be460d946ee94125>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <35d9c9f9151b4fc6be460d946ee94125>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <35d9c9f9151b4fc6be460d946ee94125>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <35d9c9f9151b4fc6be460d946ee94125>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <35d9c9f9151b4fc6be460d946ee94125>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <35d9c9f9151b4fc6be460d946ee94125>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <35d9c9f9151b4fc6be460d946ee94125>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <35d9c9f9151b4fc6be460d946ee94125>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <35d9c9f9151b4fc6be460d946ee94125>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <35d9c9f9151b4fc6be460d946ee94125>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <35d9c9f9151b4fc6be460d946ee94125>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <35d9c9f9151b4fc6be460d946ee94125>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.980 seconds
+Domain Reload Profiling:
+	ReloadAssembly (980ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (820ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (264ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (287ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (183ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatNoGeom' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.11 ms.
+Unloading 1675 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.9 MB.
+System memory in use after: 96.9 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 2597.
+Total: 2.870400 ms (FindLiveObjects: 0.153300 ms CreateObjectMapping: 0.055200 ms MarkObjects: 2.581900 ms  DeleteObjects: 0.079100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 251.898226 seconds.
+  path: Assets/Resources/VuforiaConfiguration.asset
+  artifactKey: Guid(0476f443aa827d94db334227efa59ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaConfiguration.asset using Guid(0476f443aa827d94db334227efa59ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12e29026c84204def9a4af87ccc7e251') in 0.024051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.434011 seconds.
+  path: Assets/KID/StartDialogue.cs
+  artifactKey: Guid(4534a7f2af528774ea741f53bc99db97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KID/StartDialogue.cs using Guid(4534a7f2af528774ea741f53bc99db97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08f53dc0164d3519c44b71434b1d4e58') in 0.014563 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010917 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <35d9c9f9151b4fc6be460d946ee94125>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <35d9c9f9151b4fc6be460d946ee94125>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <35d9c9f9151b4fc6be460d946ee94125>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <35d9c9f9151b4fc6be460d946ee94125>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <35d9c9f9151b4fc6be460d946ee94125>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <35d9c9f9151b4fc6be460d946ee94125>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <35d9c9f9151b4fc6be460d946ee94125>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <35d9c9f9151b4fc6be460d946ee94125>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <35d9c9f9151b4fc6be460d946ee94125>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <35d9c9f9151b4fc6be460d946ee94125>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <35d9c9f9151b4fc6be460d946ee94125>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <35d9c9f9151b4fc6be460d946ee94125>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.076 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1077ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (900ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (290ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (306ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (201ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.20 ms.
+Unloading 1675 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.9 MB.
+System memory in use after: 97.0 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 2600.
+Total: 4.107600 ms (FindLiveObjects: 0.189000 ms CreateObjectMapping: 0.067000 ms MarkObjects: 3.706000 ms  DeleteObjects: 0.144800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10.075400 seconds.
+  path: Assets/KID/StartDialogue.cs
+  artifactKey: Guid(4534a7f2af528774ea741f53bc99db97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KID/StartDialogue.cs using Guid(4534a7f2af528774ea741f53bc99db97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b49818aec628a5f4c6e26e430a564d94') in 0.005945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.256833 seconds.
+  path: Assets/KID/StartDialogue.cs
+  artifactKey: Guid(4534a7f2af528774ea741f53bc99db97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KID/StartDialogue.cs using Guid(4534a7f2af528774ea741f53bc99db97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a92f412aff53a564a6672d473994ce') in 0.003578 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010767 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <35d9c9f9151b4fc6be460d946ee94125>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <35d9c9f9151b4fc6be460d946ee94125>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <35d9c9f9151b4fc6be460d946ee94125>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <35d9c9f9151b4fc6be460d946ee94125>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <35d9c9f9151b4fc6be460d946ee94125>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <35d9c9f9151b4fc6be460d946ee94125>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <35d9c9f9151b4fc6be460d946ee94125>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <35d9c9f9151b4fc6be460d946ee94125>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <35d9c9f9151b4fc6be460d946ee94125>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <35d9c9f9151b4fc6be460d946ee94125>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <35d9c9f9151b4fc6be460d946ee94125>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <35d9c9f9151b4fc6be460d946ee94125>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.154 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1155ms)
+		BeginReloadAssembly (115ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (968ms)
+			LoadAssemblies (112ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (303ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (326ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (211ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.17 ms.
+Unloading 1675 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.0 MB.
+System memory in use after: 97.0 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 2603.
+Total: 3.962300 ms (FindLiveObjects: 0.161400 ms CreateObjectMapping: 0.071200 ms MarkObjects: 3.596200 ms  DeleteObjects: 0.132600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 16.803640 seconds.
+  path: Assets/KID
+  artifactKey: Guid(f254adae1be89644fa1817e200322bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KID using Guid(f254adae1be89644fa1817e200322bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552398994bcb232644c38e9b9b7c864f') in 0.010724 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

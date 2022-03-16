@@ -6,6 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MainSance.unity
+    path: Assets/KID/MainSance.unity
     guid: 3ae19b648df85c34283e02393d3b9b06
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 793f0cc4c335e5d47b2a41c4ce2c1f73,
+      type: 2}
