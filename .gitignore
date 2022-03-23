@@ -56,7 +56,7 @@ ExportedObj/
 sysinfo.txt
 
 # Builds
-*.apk
+.apk
 *.aab
 *.unitypackage
 *.app
@@ -70,3 +70,4 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+LTU_AR_StudentProject_20220302/Packages/com.ptc.vuforia.engine-10.5.5.tgz
