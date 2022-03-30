@@ -11,6 +11,8 @@ namespace KID
     {
         [SerializeField, Header("虛擬按鈕點擊事件")]
         private UnityEvent onClick;
+        [SerializeField, Header("虛擬按鈕放開事件")]
+        private UnityEvent onReleased;
 
         private VirtualButtonBehaviour vbb;
 
@@ -28,6 +30,7 @@ namespace KID
 
         public void OnButtonReleased(VirtualButtonBehaviour vb)
         {
+            onReleased?.Invoke();
         }
     }
 }
