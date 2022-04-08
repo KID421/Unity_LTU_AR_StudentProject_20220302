@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.Events;
 using Vuforia;
 
@@ -15,9 +16,12 @@ namespace KID
         private UnityEvent onReleased;
 
         private VirtualButtonBehaviour vbb;
+        private Text textTest;
 
         private void Start()
         {
+            textTest = GameObject.Find("測試文字").GetComponent<Text>();
+
             vbb = GetComponent<VirtualButtonBehaviour>();
             vbb.RegisterOnButtonPressed(OnButtonPressed);
             vbb.RegisterOnButtonReleased(OnButtonReleased);
@@ -26,11 +30,16 @@ namespace KID
         public void OnButtonPressed(VirtualButtonBehaviour vb)
         {
             onClick?.Invoke();
+
+            textTest.text += "<color=red>" + vb.VirtualButtonName + " 被點擊。</color>";
+            
         }
 
         public void OnButtonReleased(VirtualButtonBehaviour vb)
         {
             onReleased?.Invoke();
+
+            textTest.text += "<color=yellow>" + vb.VirtualButtonName + " 被放開。</color>";
         }
     }
 }
